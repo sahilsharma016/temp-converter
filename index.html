@@ -6,18 +6,22 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
         }
         .container {
-            max-width: 400px;
-            margin: 0 auto;
-            padding: 20px;
+            max-width: 90%;
+            padding: 100px;
             background-color: #fff;
             border-radius: 5px;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
         }
         h1 {
             text-align: center;
-            color: #333;
+            color: #0077B5;
         }
         label {
             display: block;
@@ -33,14 +37,14 @@
         button {
             width: 100%;
             padding: 10px;
-            background-color: #0077B5;
+            background-color: #4c89cf;
             color: #fff;
             border: none;
             border-radius: 3px;
             cursor: pointer;
         }
         button:hover {
-            background-color: #8b97a0;
+            background-color: #9b3d8b;
         }
         p {
             text-align: center;
@@ -56,7 +60,6 @@
         <label for="fahrenheit">Fahrenheit:</label>
         <input type="number" id="fahrenheit">
         <button onclick="convertToCelsius()">Convert to Celsius</button>
-        <br>
         <button onclick="convertToFahrenheit()">Convert to Fahrenheit</button>
         <p id="result"></p>
     </div>
@@ -84,6 +87,9 @@
             }
         }
     </script>
+</body>
+</html>
+
 
 
 </body>
